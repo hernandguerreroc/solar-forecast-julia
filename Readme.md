@@ -94,7 +94,7 @@ text
 .
 ├── Project.toml          # Direct dependencies (Flux, CUDA, cuDNN)
 ├── Manifest.toml         # Exact versions of all packages (reproducibility)
-├── solar_prediction.jl   # Main source code
+├── solar_forecasting.jl   # Main source code
 └── README.md             # This file
 License
 This project is distributed under the MIT License. You are free to use, modify, and redistribute the code, provided that appropriate credit is given to the original authors.
