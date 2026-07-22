@@ -77,18 +77,18 @@ One‑step‑ahead MAE and RMSE for Cycles 24 and 25.
 
 The predicted peak of Solar Cycle 26 with a 90% credible interval.
 
-The script generates publication‑quality vector PDFs (and accompanying PNGs) for all figures:
+The script generates a total of nine publication‑quality vector PDFs (and accompanying PNGs) for all figures:
 
-File name	Content
-smoothing.pdf/.png	Raw monthly SSN and the 13‑month smoothed series (SILSO style).
-spectrum.pdf/.png	Power spectrum with dominant periodicities (Schwabe, QBO, Hale).
-acf.pdf/.png	Autocorrelation function and the selected window size.
-dtw.pdf/.png	DTW distances between Cycle 25 and previous cycles.
-lr_finder.pdf/.png	Learning‑rate finder curve with the optimal η* highlighted.
-training_curve.pdf/.png	Loss and MAE curves for training and validation.
-forecast.pdf/.png	One‑step‑ahead predictions for Cycles 24 and 25.
-full_series.pdf/.png	Complete SSN record (1749–2036) with the Cycle 26 projection.
-cycle26_uncertainty.pdf/.png	Cycle 26 mean trajectory and 90% MC Dropout credible band.
+#	File name	Content
+1	smoothing.pdf/.png	Raw monthly SSN and the 13‑month smoothed series (SILSO style).
+2	spectrum.pdf/.png	Power spectrum with dominant periodicities (Schwabe, QBO, Hale).
+3	acf.pdf/.png	Autocorrelation function and the selected window size.
+4	dtw.pdf/.png	DTW distances between Cycle 25 and previous cycles.
+5	lr_finder.pdf/.png	Learning‑rate finder curve with the optimal η* highlighted.
+6	training_curve.pdf/.png	Loss and MAE curves for training and validation.
+7	forecast.pdf/.png	One‑step‑ahead predictions for Cycles 24 and 25.
+8	full_series.pdf/.png	Complete SSN record (1749–2036) with the Cycle 26 projection.
+9	cycle26_uncertainty.pdf/.png	Cycle 26 mean trajectory and 90% MC Dropout credible band.
 Repository Structure
 text
 .
