@@ -54,7 +54,7 @@ bash
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 3. Run the main script
 bash
-julia --project=. --threads=auto solar_prediction.jl
+julia --project=. --threads=auto solar_forecasting.jl
 The --threads=auto flag enables multi‑threaded BLAS on CPU.
 
 The first run will automatically download the SILSO dataset (≈ 3 MB) from the official server.
